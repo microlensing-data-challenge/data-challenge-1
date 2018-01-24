@@ -2,6 +2,7 @@
 
 Lightcurves are zipped in lc.tar.gz - this will unzip to the directory lc/
 
+Columns: BJD Magnitude Error
 
 
 
@@ -22,10 +23,10 @@ X,Y,Z_ECL are cartesian coordinates in the ICRS ecliptic plane frame with the so
 
 There are a few pieces of information that may need to be known for each event that are not in the lightcurve files. These are stored in event_info.txt
 
-Columns: Event_name Event_number RA_(deg) Dec_(deg) A_W149 sigma_A_W149 A_Z087 sigma_A_Z087
+Columns: Event_name Event_number RA_(deg) Dec_(deg) Distance A_W149 sigma_A_W149 A_Z087 sigma_A_Z087
 
-A_W149/Z087 are an estimate of the extinction in each band based on the location of the red clump
-sigma_A_W149/Z087 are dispersions in the extinction
+
+Distance, A_W149/Z087 are an estimate of the distance and extinction in each band of the red clump stars. sigma_A_W149/Z087 are dispersions in the extinction.
 
 
 
