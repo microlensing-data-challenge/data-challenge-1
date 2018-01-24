@@ -21,6 +21,8 @@ X,Y,Z_EQ are cartesian coordinates in the J2000 equatorial frame with the solar 
 
 X,Y,Z_ECL are cartesian coordinates in the ICRS ecliptic plane frame with the solar system barycenter at (0,0,0)
 
+Both frames are right handed, the X axis is common to both and increases from the barycenter towards the vernal equinox, Z points towards the north celestial or ecliptic pole, respectively.
+
 
 
 
