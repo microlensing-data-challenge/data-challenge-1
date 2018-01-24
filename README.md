@@ -1,4 +1,36 @@
-Ephemeris file:
-  Columns: BJD X_EQ Y_EQ Z_EQ X_ECL Y_ECL Z_ECL
-  X,Y,Z_EQ are cartesian coordinates in the J2000 equatorial frame with the solar system barycenter at (0,0,0)
-  X,Y,Z_ECL are cartesian coordinates in the ICRS ecliptic plane frame with the solar system barycenter at (0,0,0)
+# Lightcurves
+
+Lightcurves are zipped in lc.tar.gz - this will unzip to the directory lc/
+
+
+
+
+# Ephemeris files
+
+There is one ephemeris file for each filter: wfirst_ephemeris_W149.txt and wfirst_ephemeris_Z087.txt. They store the position of WFIRST in the solar system at the times of the observations in each filter. Positions are in units of AU
+
+Columns: BJD X_EQ Y_EQ Z_EQ X_ECL Y_ECL Z_ECL
+
+X,Y,Z_EQ are cartesian coordinates in the J2000 equatorial frame with the solar system barycenter at (0,0,0)
+
+X,Y,Z_ECL are cartesian coordinates in the ICRS ecliptic plane frame with the solar system barycenter at (0,0,0)
+
+
+
+
+# Event Information
+
+There are a few pieces of information that may need to be known for each event that are not in the lightcurve files. These are stored in event_info.txt
+
+Columns: Event_name Event_number RA_(deg) Dec_(deg) A_W149 sigma_A_W149 A_Z087 sigma_A_Z087
+
+A_W149/Z087 are an estimate of the extinction in each band based on the location of the red clump
+sigma_A_W149/Z087 are dispersions in the extinction
+
+
+
+# Problems?
+
+If you spot any problems with the data set, please contact Matthew Penny: penny@astronomy.ohio-state.edu as soon as possible.
+
+
