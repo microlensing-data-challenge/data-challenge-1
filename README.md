@@ -1,3 +1,8 @@
+# About the Data Challenge
+
+[http://microlensing-source.org/data-challenge/]
+
+
 # Lightcurves
 
 Lightcurves are zipped in lc.tar.gz - this will unzip to the directory lc/
