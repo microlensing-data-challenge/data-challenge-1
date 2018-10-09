@@ -47,11 +47,11 @@ The angular diameter of the source can be estimated from the color-surface brigh
 
 $\log \theta_{W149=0} = 0.986 + 0.366 (Z087-W149)_0$
 
-where \theta_{W149=0} is the angular diameter at zero apparent W149 magnitude and (Z087-W149)_0 is the dereddened color. The angular diameter is related to the angular diameter at zero magnitude by
+where \theta_{W149=0} is the angular diameter at zero apparent W149 magnitude (measured in milli-arcsec) and (Z087-W149)_0 is the dereddened color. The angular diameter is related to the angular diameter at zero magnitude by
 
 $\log \theta_{W149=0} = \log \theta + 0.2 W149_0$
 
-where $\theta$ is the angular *diameter* and $W149_0$ is the dereddened W149 magnitude. See [Adams, Boyajian & von Braun (2018)](https://ui.adsabs.harvard.edu//#abs/2018MNRAS.473.3608A/abstract) for an overview of such relations, and [Yoo et al. 2004](https://ui.adsabs.harvard.edu//#abs/2004ApJ...603..139Y/abstract) for an example of how they are used to estimate Einstein radii. The above relation is only valid for $-0.3<=(Z087-W149)_0<0.6$, and can be assumed to have an intrinsic scatter about the relation of 0.034 in $\log \theta_{W149=0}$.
+where $\theta$ is the angular *diameter* (in mas) and $W149_0$ is the dereddened W149 magnitude. See [Adams, Boyajian & von Braun (2018)](https://ui.adsabs.harvard.edu//#abs/2018MNRAS.473.3608A/abstract) for an overview of such relations, and [Yoo et al. 2004](https://ui.adsabs.harvard.edu//#abs/2004ApJ...603..139Y/abstract) for an example of how they are used to estimate Einstein radii. The above relation is only valid for $-0.3<=(Z087-W149)_0<0.6$, and can be assumed to have an intrinsic scatter about the relation of 0.034 in $\log \theta_{W149=0}$.
 
 
 
