@@ -57,6 +57,6 @@ where $\theta$ is the angular *diameter* (in mas) and $W149_0$ is the dereddened
 
 # Problems?
 
-If you spot any problems with the data set, please open an issue on this github repository, or contact Matthew Penny: penny@astronomy.ohio-state.edu as soon as possible.
+If you spot any problems with the data set, please open an issue on this github repository, or contact Matthew Penny: penny1@lsu.edu.
 
 
