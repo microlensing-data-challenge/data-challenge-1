@@ -60,3 +60,15 @@ where $\theta$ is the angular *diameter* (in mas) and $W149_0$ is the dereddened
 If you spot any problems with the data set, please open an issue on this github repository, or contact Matthew Penny: penny1@lsu.edu.
 
 
+
+# License
+
+The data in this repository -- the light curves, the ephemerides, and the event
+information -- are made available under the [Creative Commons Attribution 4.0
+International License](https://creativecommons.org/licenses/by/4.0/) (CC BY
+4.0). You are free to share and adapt them for any purpose, including
+redistributing them as part of other software or data products, provided you
+give appropriate credit.
+
+To attribute, please credit the 2018 Roman/WFIRST Microlensing Data Challenge
+team and link to http://www.microlensing-source.org/data-challenge/
