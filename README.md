@@ -1,7 +1,6 @@
 # About the Data Challenge
 
-http://www.microlensing-source.org/data-challenge/
-
+https://www.microlensing-source.org/resources/data-challenge-2018/
 
 # Change log
 
